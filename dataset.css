@@ -22,7 +22,7 @@
     padding: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px rgb(233, 233, 233);
-    width: 45%;
+    width: 650px;
 }
 
 .st-emotion-cache-uf99v8{
@@ -31,4 +31,8 @@
 
 .st-emotion-cache-ocqkz7{
     width: 600px;
+}
+
+.st-emotion-cache-1al18u3, .st-emotion-cache-d6uc01{
+    margin-bottom: -150px;
 }

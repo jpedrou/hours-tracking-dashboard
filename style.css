@@ -21,31 +21,22 @@
     padding: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px rgb(233, 233, 233);
-    width: 30%;
+    width: 425px;
 }
 
-#original-data-visualization{
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 600;
-    color: white;
-    background-color: #68c9c1;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 2px 2px rgb(233, 233, 233);
-    width: 35%;
-}
 
 .st-emotion-cache-1al18u3, .st-emotion-cache-d6uc01 {
     background-color: rgb(39, 38, 38);
     border-radius: 20px;
     box-shadow: 4px 5px 4px rgb(70, 70, 70);
-    padding: 20px;
+    padding: 30px;
+    margin-bottom: -150px;
 }
 
 .st-emotion-cache-uf99v8{
     overflow: hidden;
 }
+
 
 .st-emotion-cache-keje6w {
     padding: 20px;
