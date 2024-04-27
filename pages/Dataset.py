@@ -9,6 +9,12 @@ with open('dataset.css') as f:
 df = pd.read_parquet('datasets/employee_data_completed.parquet')
 df.rename(columns={'hora': 'hour'}, inplace=True)
 
-st.title('Original Data Visualization')
+st.title('Original Data Samples Visualization')
 st.write('##')
-st.dataframe(data=df, width=3000, height=700, column_config={'emp_id': st.column_config.NumberColumn(format='%d')})
+col0, col1, col2 = st.columns(3, gap='small')
+col0.metric('Data Rows', df.shape[0])
+col1.metric('Data Columns', df.shape[1])
+col2.metric('Data Samples', 20000)
+st.write('##')
+
+st.dataframe(data=df.head(20000), width=3000, height=550, column_config={'emp_id': st.column_config.NumberColumn(format='%d')})

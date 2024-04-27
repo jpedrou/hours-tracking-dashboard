@@ -12,19 +12,8 @@
     margin: auto;
 } 
 
-#hours-tracking-report{
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 600;
-    color: white;
-    background-color: #68c9c1;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 2px 2px rgb(233, 233, 233);
-    width: 30%;
-}
 
-#original-data-visualization{
+#original-data-samples-visualization{
     font-size: 40px;
     font-style: italic;
     font-weight: 600;
@@ -33,9 +22,13 @@
     padding: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px rgb(233, 233, 233);
-    width: 35%;
+    width: 45%;
 }
 
 .st-emotion-cache-uf99v8{
     overflow: hidden;
+}
+
+.st-emotion-cache-ocqkz7{
+    width: 600px;
 }
