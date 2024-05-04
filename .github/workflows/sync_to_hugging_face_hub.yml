@@ -1,0 +1,20 @@
+name: Sync to Hugging Face hub
+
+on:
+  push:
+      branches: [main]
+
+  workflow_dispatch:
+
+jobs:
+  sync-to-hub:
+    run-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Push to hub
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: git push https://jpedrou:$HF_TOKEN@huggingface.co/spaces/jpedrou/hours-tracking-dashboard main
+          
